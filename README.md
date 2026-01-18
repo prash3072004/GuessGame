@@ -3,7 +3,7 @@ Number Guessing Game (Python)
 A simple Python console game where the player tries to guess a randomly generated number within a limited number of attempts.
 
 Description:
-This is a Number Guessing Game built using Python.
+This is a Number Guessing Game built using Python
 The computer randomly selects a number between 0 and 100, and the player has 3 chances to guess it correctly.
 
 The game also:
