@@ -12,9 +12,13 @@ while True:
             break
         else:
             if i==2:
-                print('You lost.The correct guess was',secretnumber)
+                print('You lost.The correct guess was : {}'.format(secretnumber))
             else:
                 print('Wrong guess.Try again.')
+                if userinput > secretnumber:
+                    print('Guess a smaller number.')
+                else:
+                    print('Guess a higher number.')
     print('Do you wanna play again?')
     choice = input('Y/N: ').upper()
     if choice =='Y':
@@ -25,6 +29,3 @@ while True:
     else :
         print('Invalid input.You have exited game')
         break
-
-            
-
