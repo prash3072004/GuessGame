@@ -1,6 +1,6 @@
-import random as rdm
+import random
 while True:
-    secretnumber = rdm.randint(0,100)
+    secretnumber = random.randint(0,100)
     for i in range(3):
         try:
             userinput = int (input("Guess a value from 0 to 100: "))
@@ -27,3 +27,4 @@ while True:
         break
 
             
+
